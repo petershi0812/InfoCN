@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+div.logo_img{
+	padding-left : 20px;
+	padding-top : 20px;
+}
+
+div .separate_line{position:absolute; display:block; z-index:10; }
+div .moving_chart{position:absolute; display:block; z-index:3; }
+div .moving_chart_1{position:absolute; display:block; z-index:10; }
+div .moving_chart_2{position:absolute; display:block; z-index:10; }
+
+
+div .moving_font{ position:absolute; display:block; z-index:4; }
+div .moving_button{position:absolute; display:block; z-index:4; }
+
+div .moving_font .group_font_pre{font-size: 12;}
+div .moving_font .group_font_post{font-size: 14;color: #FF0000;}
+.macro_font_css{font-weight:bold;}
+
+div .moving_splide{position:absolute; display:block; z-index:10; }
+#tip_slider{
+    width:214px;
+    padding-top:6px;
+    z-index:10;
+    background-image:url(../Image/ticks.gif);
+}

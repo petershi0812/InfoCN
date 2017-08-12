@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/base.css" />
+</head>
+<body style='width:100%;height:100%;margin:auto;padding:0;'>
+	<center>
+		<div id='image'></div>
+		<script type="text/javascript"> 
+		       var imgID = new Image(); 
+		       imgID.src = "images/AI_CREADEV.JPG"; 
+		       winHeight = document.documentElement.clientHeight; 
+			   winWidth = document.documentElement.clientWidth; 
+		       imgID.onload = function(){ 
+			   		document.getElementById("image").innerHTML = "<img width="+winWidth+" height="+winHeight+" src="+imgID.src+" />"; 
+		       }		
+		</script> 		
+	</center>		
+</body>
+</html>

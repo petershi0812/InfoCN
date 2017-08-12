@@ -1,0 +1,59 @@
+.loginuser{   
+    background-image:url(image/user.png) !important;   
+    background-repeat:no-repeat;  
+    background-position:left;                          
+}
+.loginkey{   
+    background-image:url(image/key.png) !important;   
+    background-repeat:no-repeat; 
+    background-position:left;                               
+}
+
+.login{   
+    background-image:url(image/login.png) !important;   
+    background-repeat:no-repeat;   
+    background-position:left;                             
+}
+
+.reset{   
+    background-image:url(image/undo.png) !important;   
+    background-repeat:no-repeat;
+    background-position:left;                                
+}
+
+.checkimage{   
+    background-image:url(image/checkimage.png) !important;   
+    background-repeat:no-repeat;
+    background-position:left;                                
+}
+
+.register{   
+    background-image:url(image/register.png) !important;   
+    background-repeat:no-repeat;  
+    background-position:left;                               
+}
+
+.findpassword{   
+    background-image:url(image/findpassword.png) !important;   
+    background-repeat:no-repeat;  
+    background-position:left;                               
+}
+
+
+.close{   
+    background-image:url(image/close.png) !important;   
+    background-repeat:no-repeat;  
+    background-position:left;                               
+}
+
+.save{   
+    background-image:url(image/save.png) !important;   
+    background-repeat:no-repeat;  
+    background-position:left;                               
+}
+
+
+
+
+
+

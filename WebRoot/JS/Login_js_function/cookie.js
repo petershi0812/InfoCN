@@ -1,0 +1,1 @@
+function Setcookie(a,c){var b=new Date;b.setTime(2*b.getTime()+18E5);document.cookie=a+"="+c+";expires="+b.toGMTString()+";path=/"}function getCookie(a){a=document.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=a?unescape(a[2]):null};

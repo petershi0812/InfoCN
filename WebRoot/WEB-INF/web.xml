@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <welcome-file-list>
+    <welcome-file>portals.jsp</welcome-file>
+  </welcome-file-list>
+  
+
+  
+  <servlet>
+    <servlet-name>GetDatabase</servlet-name>
+    <servlet-class>com.servlet.GetDatabase</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetComboxSelections</servlet-name>
+    <servlet-class>com.servlet.GetComboxSelections</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllGridstorePage</servlet-name>
+    <servlet-class>com.servlet.GetAllGridstorePage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExpressionJexl</servlet-name>
+    <servlet-class>com.servlet.ExpressionJexl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllGridstoreGroupByPage</servlet-name>
+    <servlet-class>com.servlet.GetAllGridstoreGroupByPage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSingleBarChart</servlet-name>
+    <servlet-class>com.servlet.GetSingleBarChart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetMultiBarChart</servlet-name>
+    <servlet-class>com.servlet.GetMultiBarChart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetScatterChart</servlet-name>
+    <servlet-class>com.servlet.GetScatterChart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetBubbleChart</servlet-name>
+    <servlet-class>com.servlet.GetBubbleChart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSingleCombinedChart</servlet-name>
+    <servlet-class>com.servlet.GetSingleCombinedChart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetMultiCombinedChart</servlet-name>
+    <servlet-class>com.servlet.GetMultiCombinedChart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetHopdepartdocGridStore</servlet-name>
+    <servlet-class>com.servlet.GetHopdepartdocGridStore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetHopdepartdoclistGridStore</servlet-name>
+    <servlet-class>com.servlet.GetHopdepartdoclistGridStore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExportExcel</servlet-name>
+    <servlet-class>com.servlet.ExportExcel</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSysFunctiontree</servlet-name>
+    <servlet-class>com.servlet.GetSysFunctiontree</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetEmergingIndustrySysFunctiontree</servlet-name>
+    <servlet-class>com.servlet.GetEmergingIndustrySysFunctiontree</servlet-class>
+  </servlet> 
+  <servlet>
+    <servlet-name>GetAnnualHotIndustrySysFunctiontree</servlet-name>
+    <servlet-class>com.servlet.GetAnnualHotIndustrySysFunctiontree</servlet-class>
+  </servlet>    
+  <servlet>
+    <servlet-name>GetSysIndustryRightMenu_Rights</servlet-name>
+    <servlet-class>com.servlet.GetSysIndustryRightMenu_Rights</servlet-class>
+  </servlet>  
+  <servlet>
+    <servlet-name>GetAnalysisSysFunctiontree</servlet-name>
+    <servlet-class>com.servlet.GetAnalysisSysFunctiontree</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetReportSysFunctiontree</servlet-name>
+    <servlet-class>com.servlet.GetReportSysFunctiontree</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetInsightSysFunctiontree</servlet-name>
+    <servlet-class>com.servlet.GetInsightSysFunctiontree</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetTransferSysFunctiontree</servlet-name>
+    <servlet-class>com.servlet.GetTransferSysFunctiontree</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AjaxPush</servlet-name>
+    <servlet-class>com.servlet.AjaxPush</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AjaxDetailedIndustryPush</servlet-name>
+    <servlet-class>com.servlet.AjaxDetailedIndustryPush</servlet-class>
+  </servlet>  
+  <servlet>
+    <servlet-name>AjaxRankIndustryPush</servlet-name>
+    <servlet-class>com.servlet.AjaxRankIndustryPush</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AjaxThreeRankIndustryPush</servlet-name>
+    <servlet-class>com.servlet.AjaxThreeRankIndustryPush</servlet-class>
+  </servlet>      
+  <servlet>
+    <servlet-name>AjaxIndustryPush</servlet-name>
+    <servlet-class>com.servlet.AjaxIndustryPush</servlet-class>
+  </servlet>  
+  <servlet>
+    <servlet-name>AjaxMapPush</servlet-name>
+    <servlet-class>com.servlet.AjaxMapPush</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetMapGridstore</servlet-name>
+    <servlet-class>com.servlet.GetMapGridstore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetDiseaseSysFunctiontree</servlet-name>
+    <servlet-class>com.servlet.GetDiseaseSysFunctiontree</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllDiseaseGridstorePage</servlet-name>
+    <servlet-class>com.servlet.GetAllDiseaseGridstorePage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllDiseaseMOHGridstorePage</servlet-name>
+    <servlet-class>com.servlet.GetAllDiseaseMOHGridstorePage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetDiseaseSingleBarChart</servlet-name>
+    <servlet-class>com.servlet.GetDiseaseSingleBarChart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetDiseaseMultiBarChart</servlet-name>
+    <servlet-class>com.servlet.GetDiseaseMultiBarChart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetDiseaseScatterChart</servlet-name>
+    <servlet-class>com.servlet.GetDiseaseScatterChart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetDiseaseBubbleChart</servlet-name>
+    <servlet-class>com.servlet.GetDiseaseBubbleChart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetDiseaseSingleCombinedChart</servlet-name>
+    <servlet-class>com.servlet.GetDiseaseSingleCombinedChart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetDiseaseMultiCombinedChart</servlet-name>
+    <servlet-class>com.servlet.GetDiseaseMultiCombinedChart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetDiseaseMorbidityMap</servlet-name>
+    <servlet-class>com.servlet.GetDiseaseMorbidityMap</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginRedirect</servlet-name>
+    <servlet-class>com.servlet.LoginRedirect</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetCountyComboxSelections</servlet-name>
+    <servlet-class>com.servlet.GetCountyComboxSelections</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetCountyCityComboxSelections</servlet-name>
+    <servlet-class>com.servlet.GetCountyCityComboxSelections</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetCensusComboxSelections</servlet-name>
+    <servlet-class>com.servlet.GetCensusComboxSelections</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSysSearchingFunctiontree</servlet-name>
+    <servlet-class>com.servlet.GetSysSearchingFunctiontree</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>getCode</servlet-name>
+    <servlet-class>com.servlet.getCode</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckAccount</servlet-name>
+    <servlet-class>com.servlet.CheckAccount</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetMacandIP</servlet-name>
+    <servlet-class>com.servlet.GetMacandIP</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSuperAdmin</servlet-name>
+    <servlet-class>com.servlet.GetSuperAdmin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetActiveAccount</servlet-name>
+    <servlet-class>com.servlet.GetActiveAccount</servlet-class>
+  </servlet>  
+  <servlet>
+    <servlet-name>GetSysManagementSysFunctiontree</servlet-name>
+    <servlet-class>com.servlet.GetSysManagementSysFunctiontree</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetRightsNode</servlet-name>
+    <servlet-class>com.servlet.GetRightsNode</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveRightsNode</servlet-name>
+    <servlet-class>com.servlet.SaveRightsNode</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSheetInitRights</servlet-name>
+    <servlet-class>com.servlet.GetSheetInitRights</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveSheetRights</servlet-name>
+    <servlet-class>com.servlet.SaveSheetRights</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IsExistsSheetRights</servlet-name>
+    <servlet-class>com.servlet.IsExistsSheetRights</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveNewRightsNode</servlet-name>
+    <servlet-class>com.servlet.SaveNewRightsNode</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAccountAllGridstore</servlet-name>
+    <servlet-class>com.servlet.GetAccountAllGridstore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAccountRightsAllGridstore</servlet-name>
+    <servlet-class>com.servlet.GetAccountRightsAllGridstore</servlet-class>
+  </servlet>  
+  <servlet>
+    <servlet-name>SaveAccounts</servlet-name>
+    <servlet-class>com.servlet.SaveAccounts</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveRightMenu_Rights</servlet-name>
+    <servlet-class>com.servlet.SaveRightMenu_Rights</servlet-class>
+  </servlet>  
+  <servlet>
+    <servlet-name>SaveOpensw</servlet-name>
+    <servlet-class>com.servlet.SaveOpensw</servlet-class>
+  </servlet>  
+  <servlet>
+    <servlet-name>DeleteAccounts</servlet-name>
+    <servlet-class>com.servlet.DeleteAccounts</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClearFingerPrint</servlet-name>
+    <servlet-class>com.servlet.ClearFingerPrint</servlet-class>
+  </servlet>  
+  <servlet>
+    <servlet-name>GetComboxSelectionsOfRights</servlet-name>
+    <servlet-class>com.servlet.GetComboxSelectionsOfRights</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetcopyRows</servlet-name>
+    <servlet-class>com.servlet.GetcopyRows</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetexportRows</servlet-name>
+    <servlet-class>com.servlet.GetexportRows</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSinglCompanyInfo</servlet-name>
+    <servlet-class>com.servlet.GetSinglCompanyInfo</servlet-class>
+  </servlet> 
+  <servlet>
+    <servlet-name>GetSinglePPCompanyInfo</servlet-name>
+    <servlet-class>com.servlet.GetSinglePPCompanyInfo</servlet-class>
+  </servlet>   
+  <servlet>
+    <servlet-name>SaveExportActions</servlet-name>
+    <servlet-class>com.servlet.SaveExportActions</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetExportAllGridstore</servlet-name>
+    <servlet-class>com.servlet.GetExportAllGridstore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveCopyActions</servlet-name>
+    <servlet-class>com.servlet.SaveCopyActions</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetCopyAllGridstore</servlet-name>
+    <servlet-class>com.servlet.GetCopyAllGridstore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSoftwareInfoAllGridstore</servlet-name>
+    <servlet-class>com.servlet.GetSoftwareInfoAllGridstore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSoftwareLogInfoAllGridstore</servlet-name>
+    <servlet-class>com.servlet.GetSoftwareLogInfoAllGridstore</servlet-class>
+  </servlet>  
+  <servlet>
+    <servlet-name>GetSoftwareLoginInfoAllGridstore</servlet-name>
+    <servlet-class>com.servlet.GetSoftwareLoginInfoAllGridstore</servlet-class>
+  </servlet>    
+  <servlet>
+    <servlet-name>GetECRightInfoAllGridstore</servlet-name>
+    <servlet-class>com.servlet.GetECRightInfoAllGridstore</servlet-class>
+  </servlet>     
+  <servlet>
+    <servlet-name>GetCombinationData</servlet-name>
+    <servlet-class>com.servlet.GetCombinationData</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAdvKWSearchCombinationData</servlet-name>
+    <servlet-class>com.servlet.GetAdvKWSearchCombinationData</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCDCombinationSql</servlet-name>
+    <servlet-class>com.servlet.GetCDCombinationSql</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCDCombinationGridstorePage</servlet-name>
+    <servlet-class>com.servlet.GetCDCombinationGridstorePage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCDCombinationGridstoreGroupByPage</servlet-name>
+    <servlet-class>com.servlet.GetCDCombinationGridstoreGroupByPage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCDCSingleBarChart</servlet-name>
+    <servlet-class>com.servlet.GetCDCSingleBarChart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCDCMultiBarChart</servlet-name>
+    <servlet-class>com.servlet.GetCDCMultiBarChart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCDCScatterChart</servlet-name>
+    <servlet-class>com.servlet.GetCDCScatterChart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCDCBubbleChart</servlet-name>
+    <servlet-class>com.servlet.GetCDCBubbleChart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCDCSingleCombinedChart</servlet-name>
+    <servlet-class>com.servlet.GetCDCSingleCombinedChart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCDCMultiCombinedChart</servlet-name>
+    <servlet-class>com.servlet.GetCDCMultiCombinedChart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCDCexportRows</servlet-name>
+    <servlet-class>com.servlet.GetCDCexportRows</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveCDCExportActions</servlet-name>
+    <servlet-class>com.servlet.SaveCDCExportActions</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCDCcopyRows</servlet-name>
+    <servlet-class>com.servlet.GetCDCcopyRows</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveCDCCopyActions</servlet-name>
+    <servlet-class>com.servlet.SaveCDCCopyActions</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveloginTime</servlet-name>
+    <servlet-class>com.servlet.SaveloginTime</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetEmailValidation</servlet-name>
+    <servlet-class>com.servlet.GetEmailValidation</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetForgetPasswordEmailValidation</servlet-name>
+    <servlet-class>com.servlet.GetForgetPasswordEmailValidation</servlet-class>
+  </servlet>
+    
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterAccount</servlet-name>
+    <servlet-class>com.servlet.RegisterAccount</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResetPassword</servlet-name>
+    <servlet-class>com.servlet.ResetPassword</servlet-class>
+  </servlet>  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveYearInitRights</servlet-name>
+    <servlet-class>com.servlet.SaveYearInitRights</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveTopNRights</servlet-name>
+    <servlet-class>com.servlet.SaveTopNRights</servlet-class>
+  </servlet>  
+  <servlet>
+    <servlet-name>SavePagesRights</servlet-name>
+    <servlet-class>com.servlet.SavePagesRights</servlet-class>
+  </servlet>    
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetMaptreeOfSysRights</servlet-name>
+    <servlet-class>com.servlet.GetMaptreeOfSysRights</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetMapgridOfSysRights</servlet-name>
+    <servlet-class>com.servlet.GetMapgridOfSysRights</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetMapInitYearOfSysRights</servlet-name>
+    <servlet-class>com.servlet.GetMapInitYearOfSysRights</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveMapInitYearRights</servlet-name>
+    <servlet-class>com.servlet.SaveMapInitYearRights</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveMapRuleIdRights</servlet-name>
+    <servlet-class>com.servlet.SaveMapRuleIdRights</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveSheetRightsOfInitYear</servlet-name>
+    <servlet-class>com.servlet.SaveSheetRightsOfInitYear</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveSheetRightsOfExportCopy</servlet-name>
+    <servlet-class>com.servlet.SaveSheetRightsOfExportCopy</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveInititalYearRights</servlet-name>
+    <servlet-class>com.servlet.SaveInititalYearRights</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveInitialYearRights</servlet-name>
+    <servlet-class>com.servlet.SaveInitialYearRights</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>GetDatabase</servlet-name>
+    <url-pattern>/CoreData/GetDatabase</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetComboxSelections</servlet-name>
+    <url-pattern>/CoreData/GetComboxSelections</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllGridstorePage</servlet-name>
+    <url-pattern>/CoreData/GetAllGridstorePage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExpressionJexl</servlet-name>
+    <url-pattern>/CoreData/ExpressionJexl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllGridstoreGroupByPage</servlet-name>
+    <url-pattern>/CoreData/GetAllGridstoreGroupByPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSingleBarChart</servlet-name>
+    <url-pattern>/CoreData/GetSingleBarChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMultiBarChart</servlet-name>
+    <url-pattern>/CoreData/GetMultiBarChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetScatterChart</servlet-name>
+    <url-pattern>/CoreData/GetScatterChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetBubbleChart</servlet-name>
+    <url-pattern>/CoreData/GetBubbleChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSingleCombinedChart</servlet-name>
+    <url-pattern>/CoreData/GetSingleCombinedChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMultiCombinedChart</servlet-name>
+    <url-pattern>/CoreData/GetMultiCombinedChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetHopdepartdocGridStore</servlet-name>
+    <url-pattern>/CoreData/GetHopdepartdocGridStore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetHopdepartdoclistGridStore</servlet-name>
+    <url-pattern>/CoreData/GetHopdepartdoclistGridStore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExportExcel</servlet-name>
+    <url-pattern>/CoreData/ExportExcel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSysFunctiontree</servlet-name>
+    <url-pattern>/HomePage/GetSysFunctiontree</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetEmergingIndustrySysFunctiontree</servlet-name>
+    <url-pattern>/HomePage/GetEmergingIndustrySysFunctiontree</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAnnualHotIndustrySysFunctiontree</servlet-name>
+    <url-pattern>/HomePage/GetAnnualHotIndustrySysFunctiontree</url-pattern>
+  </servlet-mapping>    
+  <servlet-mapping>
+    <servlet-name>GetSysIndustryRightMenu_Rights</servlet-name>
+    <url-pattern>/HomePage/GetSysIndustryRightMenu_Rights</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>GetAnalysisSysFunctiontree</servlet-name>
+    <url-pattern>/HomePage/GetAnalysisSysFunctiontree</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetReportSysFunctiontree</servlet-name>
+    <url-pattern>/HomePage/GetReportSysFunctiontree</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetInsightSysFunctiontree</servlet-name>
+    <url-pattern>/HomePage/GetInsightSysFunctiontree</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTransferSysFunctiontree</servlet-name>
+    <url-pattern>/HomePage/GetTransferSysFunctiontree</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxPush</servlet-name>
+    <url-pattern>/HomePage/AjaxPush</url-pattern>
+  </servlet-mapping>    
+  <servlet-mapping>
+    <servlet-name>AjaxIndustryPush</servlet-name>
+    <url-pattern>/HomePage/AjaxIndustryPush</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxDetailedIndustryPush</servlet-name>
+    <url-pattern>/CoreData/AjaxDetailedIndustryPush</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>AjaxRankIndustryPush</servlet-name>
+    <url-pattern>/CoreData/AjaxRankIndustryPush</url-pattern>
+  </servlet-mapping> 
+  <servlet-mapping>
+    <servlet-name>AjaxThreeRankIndustryPush</servlet-name>
+    <url-pattern>/CoreData/AjaxThreeRankIndustryPush</url-pattern>
+  </servlet-mapping>     
+  <servlet-mapping>
+    <servlet-name>AjaxMapPush</servlet-name>
+    <url-pattern>/HomePage/Province/AjaxMapPush</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMapGridstore</servlet-name>
+    <url-pattern>/HomePage/Province/city_grid/GetMapGridstore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDiseaseSysFunctiontree</servlet-name>
+    <url-pattern>/CoreData/GetDiseaseSysFunctiontree</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllDiseaseGridstorePage</servlet-name>
+    <url-pattern>/CoreData/GetAllDiseaseGridstorePage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllDiseaseMOHGridstorePage</servlet-name>
+    <url-pattern>/CoreData/GetAllDiseaseMOHGridstorePage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDiseaseSingleBarChart</servlet-name>
+    <url-pattern>/CoreData/GetDiseaseSingleBarChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDiseaseMultiBarChart</servlet-name>
+    <url-pattern>/CoreData/GetDiseaseMultiBarChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDiseaseScatterChart</servlet-name>
+    <url-pattern>/CoreData/GetDiseaseScatterChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDiseaseBubbleChart</servlet-name>
+    <url-pattern>/CoreData/GetDiseaseBubbleChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDiseaseSingleCombinedChart</servlet-name>
+    <url-pattern>/CoreData/GetDiseaseSingleCombinedChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDiseaseMultiCombinedChart</servlet-name>
+    <url-pattern>/CoreData/GetDiseaseMultiCombinedChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDiseaseMorbidityMap</servlet-name>
+    <url-pattern>/CoreData/Disease/ifrom_map/GetDiseaseMorbidityMap</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginRedirect</servlet-name>
+    <url-pattern>/LoginRedirect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCountyComboxSelections</servlet-name>
+    <url-pattern>/CoreData/GetCountyComboxSelections</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCountyCityComboxSelections</servlet-name>
+    <url-pattern>/CoreData/GetCountyCityComboxSelections</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCensusComboxSelections</servlet-name>
+    <url-pattern>/CoreData/GetCensusComboxSelections</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSysSearchingFunctiontree</servlet-name>
+    <url-pattern>/HomePage/GetSysSearchingFunctiontree</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getCode</servlet-name>
+    <url-pattern>/getCode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckAccount</servlet-name>
+    <url-pattern>/CheckAccount</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMacandIP</servlet-name>
+    <url-pattern>/GetMacandIP</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSuperAdmin</servlet-name>
+    <url-pattern>/GetSuperAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetActiveAccount</servlet-name>
+    <url-pattern>/GetActiveAccount</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>GetSysManagementSysFunctiontree</servlet-name>
+    <url-pattern>/HomePage/GetSysManagementSysFunctiontree</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetRightsNode</servlet-name>
+    <url-pattern>/Management/GetRightsNode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveRightsNode</servlet-name>
+    <url-pattern>/Management/SaveRightsNode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSheetInitRights</servlet-name>
+    <url-pattern>/Management/GetSheetInitRights</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveSheetRights</servlet-name>
+    <url-pattern>/Management/SaveSheetRights</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IsExistsSheetRights</servlet-name>
+    <url-pattern>/Management/IsExistsSheetRights</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveNewRightsNode</servlet-name>
+    <url-pattern>/Management/SaveNewRightsNode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAccountAllGridstore</servlet-name>
+    <url-pattern>/Management/GetAccountAllGridstore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAccountRightsAllGridstore</servlet-name>
+    <url-pattern>/Management/GetAccountRightsAllGridstore</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>SaveAccounts</servlet-name>
+    <url-pattern>/Management/SaveAccounts</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveRightMenu_Rights</servlet-name>
+    <url-pattern>/Management/SaveRightMenu_Rights</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>SaveOpensw</servlet-name>
+    <url-pattern>/Management/SaveOpensw</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>DeleteAccounts</servlet-name>
+    <url-pattern>/Management/DeleteAccounts</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClearFingerPrint</servlet-name>
+    <url-pattern>/Management/ClearFingerPrint</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>GetComboxSelectionsOfRights</servlet-name>
+    <url-pattern>/Management/GetComboxSelectionsOfRights</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetcopyRows</servlet-name>
+    <url-pattern>/CoreData/GetcopyRows</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetexportRows</servlet-name>
+    <url-pattern>/CoreData/GetexportRows</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSinglCompanyInfo</servlet-name>
+    <url-pattern>/CoreData/GetSinglCompanyInfo</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>GetSinglePPCompanyInfo</servlet-name>
+    <url-pattern>/CoreData/GetSinglePPCompanyInfo</url-pattern>
+  </servlet-mapping>   
+  <servlet-mapping>
+    <servlet-name>SaveExportActions</servlet-name>
+    <url-pattern>/CoreData/SaveExportActions</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetExportAllGridstore</servlet-name>
+    <url-pattern>/Management/GetExportAllGridstore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveCopyActions</servlet-name>
+    <url-pattern>/CoreData/SaveCopyActions</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCopyAllGridstore</servlet-name>
+    <url-pattern>/Management/GetCopyAllGridstore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSoftwareInfoAllGridstore</servlet-name>
+    <url-pattern>/Management/GetSoftwareInfoAllGridstore</url-pattern>
+  </servlet-mapping> 
+  <servlet-mapping>
+    <servlet-name>GetSoftwareLogInfoAllGridstore</servlet-name>
+    <url-pattern>/Management/GetSoftwareLogInfoAllGridstore</url-pattern>
+  </servlet-mapping>   
+  <servlet-mapping>
+    <servlet-name>GetSoftwareLoginInfoAllGridstore</servlet-name>
+    <url-pattern>/Management/GetSoftwareLoginInfoAllGridstore</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>GetECRightInfoAllGridstore</servlet-name>
+    <url-pattern>/Management/GetECRightInfoAllGridstore</url-pattern>
+  </servlet-mapping>   
+  <servlet-mapping>
+    <servlet-name>GetCombinationData</servlet-name>
+    <url-pattern>/CoreAnalysisData/GetCombinationData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAdvKWSearchCombinationData</servlet-name>
+    <url-pattern>/CoreAnalysisData/GetAdvKWSearchCombinationData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCDCombinationSql</servlet-name>
+    <url-pattern>/CoreAnalysisData/GetCDCombinationSql</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCDCombinationGridstorePage</servlet-name>
+    <url-pattern>/CoreAnalysisData/GetCDCombinationGridstorePage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCDCombinationGridstoreGroupByPage</servlet-name>
+    <url-pattern>/CoreAnalysisData/GetCDCombinationGridstoreGroupByPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCDCSingleBarChart</servlet-name>
+    <url-pattern>/CoreAnalysisData/GetCDCSingleBarChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCDCMultiBarChart</servlet-name>
+    <url-pattern>/CoreAnalysisData/GetCDCMultiBarChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCDCScatterChart</servlet-name>
+    <url-pattern>/CoreAnalysisData/GetCDCScatterChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCDCBubbleChart</servlet-name>
+    <url-pattern>/CoreAnalysisData/GetCDCBubbleChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCDCSingleCombinedChart</servlet-name>
+    <url-pattern>/CoreAnalysisData/GetCDCSingleCombinedChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCDCMultiCombinedChart</servlet-name>
+    <url-pattern>/CoreAnalysisData/GetCDCMultiCombinedChart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCDCexportRows</servlet-name>
+    <url-pattern>/CoreAnalysisData/GetCDCexportRows</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveCDCExportActions</servlet-name>
+    <url-pattern>/CoreAnalysisData/SaveCDCExportActions</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCDCcopyRows</servlet-name>
+    <url-pattern>/CoreAnalysisData/GetCDCcopyRows</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveCDCCopyActions</servlet-name>
+    <url-pattern>/CoreAnalysisData/SaveCDCCopyActions</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveloginTime</servlet-name>
+    <url-pattern>/HomePage/SaveloginTime</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetEmailValidation</servlet-name>
+    <url-pattern>/GetEmailValidation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetForgetPasswordEmailValidation</servlet-name>
+    <url-pattern>/GetForgetPasswordEmailValidation</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>RegisterAccount</servlet-name>
+    <url-pattern>/RegisterAccount</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResetPassword</servlet-name>
+    <url-pattern>/ResetPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveYearInitRights</servlet-name>
+    <url-pattern>/Management/SaveYearInitRights</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveTopNRights</servlet-name>
+    <url-pattern>/Management/SaveTopNRights</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>SavePagesRights</servlet-name>
+    <url-pattern>/Management/SavePagesRights</url-pattern>
+  </servlet-mapping>    
+  <servlet-mapping>
+    <servlet-name>GetMaptreeOfSysRights</servlet-name>
+    <url-pattern>/Management/GetMaptreeOfSysRights</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMapgridOfSysRights</servlet-name>
+    <url-pattern>/Management/GetMapgridOfSysRights</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMapInitYearOfSysRights</servlet-name>
+    <url-pattern>/Management/GetMapInitYearOfSysRights</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveMapInitYearRights</servlet-name>
+    <url-pattern>/Management/SaveMapInitYearRights</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveMapRuleIdRights</servlet-name>
+    <url-pattern>/Management/SaveMapRuleIdRights</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveSheetRightsOfInitYear</servlet-name>
+    <url-pattern>/Management/SaveSheetRightsOfInitYear</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveSheetRightsOfExportCopy</servlet-name>
+    <url-pattern>/Management/SaveSheetRightsOfExportCopy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveInitialYearRights</servlet-name>
+    <url-pattern>/Management/SaveInitialYearRights</url-pattern>
+  </servlet-mapping>
+  
+
+<session-config>
+	<session-timeout>15</session-timeout>
+</session-config>
+
+<filter> 
+	<filter-name>sessionFilter</filter-name>
+	<filter-class>com.filter.sessionFilter</filter-class>
+</filter> 
+<filter-mapping>
+	<filter-name>sessionFilter</filter-name>
+	<url-pattern>/CoreData/*</url-pattern>
+</filter-mapping>
+<filter-mapping>
+	<filter-name>sessionFilter</filter-name>
+	<url-pattern>/CoreAnalysisData/*</url-pattern>
+</filter-mapping>
+<filter-mapping>
+	<filter-name>sessionFilter</filter-name>
+	<servlet-name>*</servlet-name>
+</filter-mapping>
+<filter-mapping>
+	<filter-name>sessionFilter</filter-name>
+	<url-pattern>/HomePage/*</url-pattern>
+</filter-mapping>
+<filter-mapping>
+	<filter-name>sessionFilter</filter-name>
+	<url-pattern>/Reports/*</url-pattern>
+</filter-mapping>
+<filter-mapping>
+	<filter-name>sessionFilter</filter-name>
+	<url-pattern>/Insight/*</url-pattern>
+</filter-mapping>
+<filter-mapping>
+	<filter-name>sessionFilter</filter-name>
+	<url-pattern>/Management/*</url-pattern>
+</filter-mapping>
+
+ <listener>
+ <listener-class>com.listener.OnlineUserListener</listener-class>
+</listener>
+
+</web-app>
