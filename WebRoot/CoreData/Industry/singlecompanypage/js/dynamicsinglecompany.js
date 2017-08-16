@@ -775,6 +775,7 @@ function renderPPCompanyInfo(id,dist,flag){
         labelWidth: 70, 
         labelAlign:'right',
         border:false,
+        autoScroll:true,
         bodyStyle:'padding:5 5 5 5'
     });  
     if(dist['companyevent'].indexOf("#")>0){
@@ -855,7 +856,7 @@ function renderPPCompanyInfo(id,dist,flag){
             height:pageheight*0.4-32,
             autoScroll:true,
             collapsible:true,
-            collapsed:true,
+            //collapsed:true,
             title: '公司主要信息',            
             style:'padding:5px 5px 5px 5px',
             items:[{
@@ -867,7 +868,7 @@ function renderPPCompanyInfo(id,dist,flag){
             columnWidth:.32,
             autoScroll:true,
             collapsible:true,
-            collapsed:true,
+            //collapsed:true,
             title: '公司股权结构',
             height:pageheight*0.4-32,
             style:'padding:5px 0px 5px 5px',
@@ -893,6 +894,7 @@ function renderPPCompanyInfo(id,dist,flag){
             title: '专利',
             layout:'fit',		
             collapsible:true,
+          	//collapsed:true,
 			style:'padding:5px 5px 5px 5px',
 			columnWidth:.98,
 			autoScroll:true,
